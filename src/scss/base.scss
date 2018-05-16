@@ -1,0 +1,18 @@
+$color-white: #fefefe;
+$color-black: #333;
+$sans-font:  'Roboto', sans-serif;
+
+html, body, div, ul, ol, dl{
+  margin:0;
+  padding:0;
+}
+*{
+  box-sizing:border-box;
+}
+img{
+  max-width:100%;
+}
+html{
+  background-color:$color-white;
+  font-family: $sans-font;
+}

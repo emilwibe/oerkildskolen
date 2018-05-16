@@ -1,0 +1,34 @@
+.logo{
+  height:40px;
+}
+.no-js .logo{
+  height:40px !important;
+}
+.header.image img{
+  width:100%;
+}
+.nav.primary a{
+  text-decoration:none;
+  font-weight:bold;
+  text-transform:uppercase;
+  color:$color-black;
+  display:block;
+  padding:10px;
+  font-size:calc(10px + 0.25vw);
+}
+.nav.primary .cta a{
+  color:$color-white;
+  background-color:$color-black;
+  float:left;
+  line-height:40px;
+  padding:0;
+  padding-left:10px;
+}
+.nav.primary .cta a::after{
+  display:block;
+  content:'';
+  border:20px solid $color-white;
+  border-left-color: $color-black;
+  border-right:0;
+  float:right;
+}

@@ -1,0 +1,21 @@
+html, body, div, ul {
+  margin: 0;
+  padding: 0; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  background-color: lightgrey; }
+
+.wrapper {
+  margin: 0 auto; }
+
+.wrapper.lg {
+  max-width: 1366px; }
+
+.wrapper.md {
+  max-width: 1024px; }
+
+.wrapper.sm {
+  max-width: 768px; }

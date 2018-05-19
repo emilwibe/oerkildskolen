@@ -12,11 +12,10 @@ register_nav_menus(array(
 
 add_theme_support('title-tag');
 
-add_filter( 'post_thumbnail_html', 'remove_width_attribute', 10 );
-add_filter( 'image_send_to_editor', 'remove_width_attribute', 10 );
+add_filter('style_loader_tag', 'myplugin_remove_type_attr', 10, 2);
+add_filter('script_loader_tag', 'myplugin_remove_type_attr', 10, 2);
 
-function remove_width_attribute( $html ) {
-   $html = preg_replace( '/(width|height)="\d*"\s/', "", $html );
-   return $html;
+function myplugin_remove_type_attr($tag, $handle) {
+    return preg_replace( "/type=['\"]text\/(javascript|css)['\"]/", '', $tag );
 }
 ?>

@@ -1,6 +1,8 @@
+$color-primary: #3399cc;
 $color-white: #fefefe;
 $color-black: #333;
 $sans-font:  'Roboto', sans-serif;
+$handwritten-font: 'Allura', cursive;
 
 html, body, div, ul, ol, dl{
   margin:0;
@@ -9,10 +11,22 @@ html, body, div, ul, ol, dl{
 *{
   box-sizing:border-box;
 }
+::selection{
+  color: $color-white;
+  background-color: $color-primary;
+}
+p{
+  font-size:16px;
+  line-height:1.5;
+}
+a{
+  color:$color-primary;
+}
 img{
   max-width:100%;
 }
 html{
   background-color:$color-white;
   font-family: $sans-font;
+  font-size:62.5%;
 }

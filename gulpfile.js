@@ -4,15 +4,20 @@ const sass = require("gulp-sass");
 const rename = require("gulp-rename");
 const cleanCSS = require("gulp-clean-css");
 const uglify = require("gulp-uglify");
+const importCSS = require("gulp-import-css");
 
 let paths = {
   scss: [
     "./src/scss/fonts.scss",
     "./src/scss/base.scss",
     "./src/scss/layout.scss",
+    "./src/grid.scss",
     "./src/scss/modules.scss",
     "./src/scss/animations.scss",
     "./src/scss/theme.scss"
+  ],
+  cssGRID: [
+    "./src/css/grid/_grid-core.css"
   ],
   jsHead: [
     "./src/js/prefixfree.js",
@@ -33,6 +38,14 @@ gulp.task("css", ()=>{
     .pipe(rename("core.min.css"))
     .pipe(gulp.dest("./dist"));
 });
+
+gulp.task("cssGRID", ()=>{
+  return gulp.src(paths.cssGRID)
+    .pipe(importCSS())
+    .pipe(rename("grid.scss"))
+    .pipe(gulp.dest("./src"))
+});
+
 gulp.task("jsHead", ()=>{
   return gulp.src(paths.jsHead)
     .pipe(concat("core-head.js"))

@@ -14,11 +14,19 @@
 .wrapper.sm{
   max-width:768px;
 }
+.wrapper.fw{
+  width:100%;
+}
+.wrapper.fw.quote{
+  margin:50px 0;
+  padding:80px 0;
+}
 .header.primary{
   display:flex;
   justify-content:space-between;
   align-items:center;
   padding:20px 0;
+  position:relative;
 }
 .nav.primary > ul{
   display:flex;

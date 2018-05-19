@@ -17,6 +17,9 @@
 
   <div class="wrapper lg">
     <header class="header primary">
+      <div class="menu-toggle">
+        <a href="#" id="nav-trigger">Menu</a>
+      </div><!--/.menu-toggle-->
       <a href="<?php echo get_site_url(); ?>" class="logo-link"><img src="<?php echo get_template_directory_uri() . "/assets/oerkildskolen-logo-black.svg"; ?>" alt="Ørkildskolen Logo" class="logo"></a>
 
       <?php get_template_part("template-parts/nav", "primary"); ?>

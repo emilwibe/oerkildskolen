@@ -1,33 +1,44 @@
 <?php get_header(); ?>
 <main>
-<div class="wrapper lg">
-<div class="row lg-col-66-33 md-col-66-33 sm-col-100">
-  <div>
-    <div>
 
-      <div class="introduction">
-        <span class="hw"><?php the_field('index_signature'); ?></span>
-      <?php
+  <div class="wrapper lg">
 
-        if(get_field('index_introduction')){
-          the_field('index_introduction');
-        }
+    <div class="row lg-col-33-66 md-col-33-66 sm-col-100 introduction">
+        <div>
+          <div>
+            <span class="hw"><?php the_field('index_signature'); ?></span>
+          </div>
+        </div>
+        <div>
+          <div>
+            <?php
 
-      ?>
+              if(get_field('index_introduction')){
+                the_field('index_introduction');
+              }
 
-      </div><!--/introduction-->
+            ?>
 
-    </div>
-  </div>
-  <div>
-    <div>
+          </div>
+        </div>
 
 
 
-    </div>
-  </div>
-</div><!--/.row-->
+
+
+
+  </div><!--/.row-->
 </div><!--/.wrapper.lg-->
+
+    </div>
+  </div>
+  <div>
+    <div>
+
+
+
+    </div>
+  </div>
 <!--
 
 <div class="wrapper lg">

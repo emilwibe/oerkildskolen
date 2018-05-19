@@ -28,9 +28,11 @@
   padding:20px 0;
   position:relative;
 }
-.nav.primary > ul{
-  display:flex;
-  align-items:center;
+@media screen and (min-width:961px){
+  .nav.primary > ul{
+    display:flex;
+    align-items:center;
+  }
 }
 .nav.primary li{
   list-style-type:none;

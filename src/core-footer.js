@@ -44,11 +44,4 @@
     navPrimary.classList.toggle("is-open");
   }, false);
 
-  /*if(subMenusLength){
-    for(i = 0; i < subMenusLength; i += 1){
-      subMenus[i].addEventListener("mouseout", function(e){
-        e.target.previousElementSibling.classList.remove("is-open");
-      }, false);
-    }
-  }*/
 })();

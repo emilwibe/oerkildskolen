@@ -1,6 +1,10 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i");
 @import url("https://fonts.googleapis.com/css?family=Allura");
+@media screen and (max-width: 1000px) {
+  body {
+    margin-bottom: 50px; } }
+
 html, body, div, ul, ol, dl {
   margin: 0;
   padding: 0; }
@@ -770,8 +774,8 @@ html {
   margin-top: 20px; }
 
 .introduction * {
-  font-size: calc(18px + 0.25vw);
-  font-weight: 300; }
+  font-size: calc(14px + 0.25vw);
+  font-weight: 400; }
 
 .introduction .hw {
   font-size: calc(38px + 0.25vw);

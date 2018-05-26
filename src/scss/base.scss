@@ -4,6 +4,12 @@ $color-black: #333;
 $sans-font:  'Roboto', sans-serif;
 $handwritten-font: 'Allura', cursive;
 
+@media screen and (max-width:1000px){
+  body{
+    margin-bottom:50px;
+  }
+}
+
 html, body, div, ul, ol, dl{
   margin:0;
   padding:0;

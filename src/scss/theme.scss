@@ -116,6 +116,9 @@
     display:none;
     z-index:20;
   }
+  .nav.primary a{
+    font-family: $sans-font;
+  }
   .nav.primary.is-open{
     display:flex;
   }

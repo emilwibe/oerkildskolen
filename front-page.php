@@ -22,52 +22,13 @@
           </div>
         </div>
 
-
-
-
-
-
   </div><!--/.row-->
+
+  <?php get_template_part('template-parts/index', 'featured'); ?>
+
 </div><!--/.wrapper.lg-->
 
-    </div>
-  </div>
-  <div>
-    <div>
+<?php get_template_part('template-parts/global', 'flex'); ?>
 
-
-
-    </div>
-  </div>
-<!--
-
-<div class="wrapper lg">
-  <nav class="row lg-col-33 md-col-33 sm-col-100 nav blocks">
-    <div>
-      <div class="block">
-        <a href="#">
-          <img src="https://unsplash.it/760/360?random" alt="">
-          <h3>Indskoling</h3>
-        </a>
-      </div>
-    </div>
-    <div>
-      <div class="block">
-        <a href="#">
-          <img src="https://unsplash.it/760/360?random" alt="">
-          <h3>Mellemtrin</h3>
-        </a>
-      </div>
-    </div>
-    <div>
-      <div class="block">
-        <a href="#">
-          <img src="https://unsplash.it/760/360?random" alt="">
-          <h3>Specialklasser</h3>
-        </a>
-      </div>
-    </div>
-  </nav><!--/.row--><!--
-</div><!--/.wrapper.lg-->
 </main>
 <?php get_footer(); ?>

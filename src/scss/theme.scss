@@ -5,7 +5,7 @@
   height:40px !important;
 }
 .header.image{
-  margin-bottom:50px;
+  margin-bottom:32px;
 }
 .header.image img{
   width:100%;
@@ -29,7 +29,7 @@
 }
 .nav.primary .cta a{
   color:$color-white;
-  background-color:$color-primary;
+  background-color:$color-black;
   float:left;
   line-height:40px;
   padding:0;
@@ -39,7 +39,7 @@
   display:block;
   content:'';
   border:20px solid $color-white;
-  border-left-color: $color-primary;
+  border-left-color: $color-black;
   border-right:0;
   float:right;
 }
@@ -160,11 +160,21 @@
 }
 .introduction *{
   font-size:calc(14px + 0.25vw);
-  font-weight:400;
+  font-weight:300;
 }
 .introduction .hw{
   font-size:calc(38px + 0.25vw);
   display:block;
   text-align:center;
   line-height:1.5;
+}
+.index-featured h2{
+  color: $color-black;
+  text-decoration:none;
+  font-size:calc(16px + 0.25vw);
+  text-decoration:none;
+  font-family:$sans-font;
+}
+.index-featured img{
+  width:100%;
 }

@@ -28,10 +28,23 @@ p {
   line-height: 1.5; }
 
 a {
-  color: #3399cc; }
+  color: #3399cc;
+  text-decoration: none; }
 
 img {
   max-width: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif; }
+
+h1 {
+  font-size: calc(22px + 0.25vw); }
+
+h3 {
+  font-size: calc(16px + 0.25vw); }
+
+main {
+  margin-bottom: 60px; }
 
 .no-js img {
   height: auto !important; }
@@ -54,7 +67,7 @@ img {
 
 .wrapper.fw.quote {
   margin: 50px 0;
-  padding: 80px 0; }
+  padding: 50px 0; }
 
 .header.primary {
   display: flex;
@@ -62,6 +75,28 @@ img {
   align-items: center;
   padding: 20px 0;
   position: relative; }
+
+.module {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.module.quote {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.module.quote q {
+  font-size: calc(38px + 0.25vw);
+  text-align: center;
+  display: block; }
+
+.module.quote .quote.author {
+  display: block;
+  text-align: center;
+  line-height: 2;
+  font-size: calc(14px + 0.25vw); }
 
 @media screen and (min-width: 961px) {
   .nav.primary > ul {
@@ -639,7 +674,7 @@ img {
   height: 40px !important; }
 
 .header.image {
-  margin-bottom: 50px; }
+  margin-bottom: 32px; }
 
 .header.image img {
   width: 100%;
@@ -663,7 +698,7 @@ img {
 
 .nav.primary .cta a {
   color: #fefefe;
-  background-color: #3399cc;
+  background-color: #333;
   float: left;
   line-height: 40px;
   padding: 0;
@@ -673,7 +708,7 @@ img {
   display: block;
   content: '';
   border: 20px solid #fefefe;
-  border-left-color: #3399cc;
+  border-left-color: #333;
   border-right: 0;
   float: right; }
 
@@ -779,10 +814,20 @@ img {
 
 .introduction * {
   font-size: calc(14px + 0.25vw);
-  font-weight: 400; }
+  font-weight: 300; }
 
 .introduction .hw {
   font-size: calc(38px + 0.25vw);
   display: block;
   text-align: center;
   line-height: 1.5; }
+
+.index-featured h2 {
+  color: #333;
+  text-decoration: none;
+  font-size: calc(16px + 0.25vw);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif; }
+
+.index-featured img {
+  width: 100%; }

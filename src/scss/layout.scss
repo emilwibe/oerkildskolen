@@ -19,7 +19,7 @@
 }
 .wrapper.fw.quote{
   margin:50px 0;
-  padding:80px 0;
+  padding:50px 0;
 }
 .header.primary{
   display:flex;
@@ -27,6 +27,28 @@
   align-items:center;
   padding:20px 0;
   position:relative;
+}
+.module{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.module.quote{
+  padding-top:50px;
+  padding-bottom:50px;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+.module.quote q{
+  font-size:calc(38px + 0.25vw);
+  text-align:center;
+  display:block;
+}
+.module.quote .quote.author{
+  display:block;
+  text-align:center;
+  line-height:2;
+  font-size:calc(14px + 0.25vw);
 }
 @media screen and (min-width:961px){
   .nav.primary > ul{

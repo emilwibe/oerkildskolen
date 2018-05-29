@@ -33,7 +33,20 @@ p{
 }
 a{
   color:$color-primary;
+  text-decoration:none;
 }
 img{
   max-width:100%;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family:$sans-font;
+}
+h1{
+  font-size::calc(22px + 0.25vw);
+}
+h3{
+  font-size:calc(16px + 0.25vw);
+}
+main{
+  margin-bottom:60px;
 }

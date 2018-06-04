@@ -87,7 +87,7 @@ main {
   background-position: center;
   background-repeat: no-repeat; }
 
-.module.quote q {
+.module.quote q, .module.quote blockquote {
   font-size: calc(38px + 0.25vw);
   text-align: center;
   display: block; }

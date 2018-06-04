@@ -23,10 +23,15 @@
       <div class="wrapper fw module quote" style="background-color:<?php echo  get_sub_field('global_flex_quote_bgcolor'); ?>;background-image:url('<?php echo wp_get_attachment_url($bgIMG); ?>');">
 
         <div class="wrapper sm quote text">
-          <q cite="<?php the_sub_field('global_flex_quote_author'); ?>" style="color:<?php the_sub_field('global_flex_quote_color'); ?>"><?php the_sub_field('global_flex_quote_text'); ?></q>
           <?php if(get_sub_field('global_flex_quote_author')) : ?>
+          <q cite="<?php the_sub_field('global_flex_quote_author'); ?>" style="color:<?php the_sub_field('global_flex_quote_color'); ?>"><?php the_sub_field('global_flex_quote_text'); ?></q>
 
           <span class="quote author" style="color:<?php the_sub_field('global_flex_quote_color'); ?>">- <?php the_sub_field('global_flex_quote_author'); ?></span>
+
+          <?php else : ?>
+
+          <blockquote style="color:<?php the_sub_field('global_flex_quote_color'); ?>"><?php the_sub_field('global_flex_quote_text'); ?></blockquote>
+
           <?php endif; ?>
 
         </div>

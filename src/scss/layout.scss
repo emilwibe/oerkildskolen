@@ -50,6 +50,9 @@
   line-height:2;
   font-size:calc(14px + 0.25vw);
 }
+.module.img img{
+  width:100%;
+}
 @media screen and (min-width:961px){
   .nav.primary > ul{
     display:flex;

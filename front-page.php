@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <main>
 
-  <div class="wrapper md">
+  <div class="wrapper lg">
 
     <div class="row lg-col-33-66 md-col-33-66 sm-col-100 introduction">
         <div>

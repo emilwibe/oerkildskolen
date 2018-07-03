@@ -61,6 +61,8 @@
   text-align:center;
   line-height:2;
   font-size:calc(14px + 0.25vw);
+  position:relative;
+  z-index:10;
 }
 .module.img img{
   width:100%;

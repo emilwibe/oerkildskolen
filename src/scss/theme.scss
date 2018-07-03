@@ -4,19 +4,18 @@
 .no-js .logo{
   height:40px !important;
 }
+.no-scroll{
+  overflow:hidden;
+}
 .header.image{
   margin-bottom:32px;
 }
 .header.image img{
   width:100%;
   display:block;
-  animation:headerImage 20s forwards;
 }
 .enhanced .header.image{
   overflow:hidden;
-}
-.enhanced .header.image img{
-  transform:scale(1.5);
 }
 .nav.primary a{
   text-decoration:none;
@@ -63,6 +62,7 @@
     overflow:hidden;
     background-color:rgba(255, 255, 255, 0.9);
     column-count:2;
+    margin-top:14px;
   }
   .nav.primary a:hover + .sub-menu, .nav.primary .sub-menu:hover, .nav.primary a.is-open + .sub-menu{
     max-height:1000px;
@@ -87,7 +87,6 @@
 @media screen and (max-width:1000px){
   .menu-toggle{
     display:block;
-    background-color:$color-white;
     width:100%;
     position:fixed;
     z-index:30;
@@ -109,7 +108,7 @@
     right:0;
     background-color:$color-white;
     width:100%;
-    height:100%;
+    height:100vh;
     overflow:auto;
     display:flex;
     justify-content:center;
@@ -122,6 +121,11 @@
   }
   .nav.primary.is-open{
     display:flex;
+    padding:0 50px;
+  }
+  .nav.primary.is-open > ul{
+    margin-top:100px;
+    margin-bottom:100px;
   }
   .nav.primary > ul{
     overflow:auto;
@@ -131,10 +135,10 @@
   }
   .nav.primary > ul .sub-menu{
     margin-left:10px;
-    border-left: 5px solid $color-primary;
     background-color:#fafafa;
     max-height:0;
     overflow:hidden;
+    padding-left:2px;
   }
   .nav.primary > ul a.is-open + .sub-menu{
     max-height:1000px;
@@ -175,6 +179,7 @@
   font-size:calc(16px + 0.25vw);
   text-decoration:none;
   font-family:$sans-font;
+  margin:0;
 }
 .index-featured img{
   width:100%;

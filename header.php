@@ -27,4 +27,10 @@
     </header><!--/.header.primary-->
   </div><!--/.wrapper.lg-->
 
-<?php get_template_part('template-parts/img', 'header'); ?>
+  <?php
+    if(!is_front_page()){
+      get_template_part('template-parts/img', 'header');
+    } else {
+      get_template_part('template-parts/img', 'headerIndex');
+    }
+    ?>

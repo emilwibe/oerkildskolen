@@ -106,10 +106,9 @@
         </div>
       </div><!--/.wrapper.lg.row-->
 
+    <?php elseif(get_row_layout == 'global_flex_staff') : ?>
 
-
-
-
+      <?php get_template_part('template-parts/flexmodule', 'staff'); ?>
 
     <?php endif; ?>
 

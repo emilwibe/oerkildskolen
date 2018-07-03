@@ -89,8 +89,8 @@ main {
 
 .module.quote q, .module.quote blockquote {
   font-size: calc(38px + 0.25vw);
-  text-align: center;
-  display: block; }
+  display: block;
+  font-style: italic; }
 
 .module.quote .quote.author {
   display: block;
@@ -103,6 +103,10 @@ main {
 
 .module.text-image img {
   width: 100%; }
+
+.module.text-image > div, .module.image-text > div {
+  display: flex;
+  align-items: center; }
 
 .videoWrapper {
   position: relative;
@@ -117,7 +121,7 @@ main {
   width: 100%;
   height: 100%; }
 
-@media screen and (min-width: 961px) {
+@media screen and (min-width: 1001px) {
   .nav.primary > ul {
     display: flex;
     align-items: center; } }
@@ -680,31 +684,24 @@ main {
 .hw {
   font-family: "Allura", cursive; }
 
-@keyframes headerImage {
-  from {
-    transform: scale(1.5); }
-  to {
-    transform: scale(1); } }
-
 .logo {
   height: 40px; }
 
 .no-js .logo {
   height: 40px !important; }
 
+.no-scroll {
+  overflow: hidden; }
+
 .header.image {
   margin-bottom: 32px; }
 
 .header.image img {
   width: 100%;
-  display: block;
-  animation: headerImage 20s forwards; }
+  display: block; }
 
 .enhanced .header.image {
   overflow: hidden; }
-
-.enhanced .header.image img {
-  transform: scale(1.5); }
 
 .nav.primary a {
   text-decoration: none;
@@ -750,7 +747,8 @@ main {
     padding-left: 50%;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.9);
-    column-count: 2; }
+    column-count: 2;
+    margin-top: 14px; }
   .nav.primary a:hover + .sub-menu, .nav.primary .sub-menu:hover, .nav.primary a.is-open + .sub-menu {
     max-height: 1000px;
     padding: 50px;
@@ -770,7 +768,6 @@ main {
 @media screen and (max-width: 1000px) {
   .menu-toggle {
     display: block;
-    background-color: #fefefe;
     width: 100%;
     position: fixed;
     z-index: 30;
@@ -790,7 +787,7 @@ main {
     right: 0;
     background-color: #fefefe;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     overflow: auto;
     display: flex;
     justify-content: center;
@@ -800,17 +797,21 @@ main {
   .nav.primary a {
     font-family: "Roboto", sans-serif; }
   .nav.primary.is-open {
-    display: flex; }
+    display: flex;
+    padding: 0 50px; }
+  .nav.primary.is-open > ul {
+    margin-top: 100px;
+    margin-bottom: 100px; }
   .nav.primary > ul {
     overflow: auto; }
   .nav.primary > ul > li {
     padding: 0 10px; }
   .nav.primary > ul .sub-menu {
     margin-left: 10px;
-    border-left: 5px solid #3399cc;
     background-color: #fafafa;
     max-height: 0;
-    overflow: hidden; }
+    overflow: hidden;
+    padding-left: 2px; }
   .nav.primary > ul a.is-open + .sub-menu {
     max-height: 1000px; }
   .menu-item-has-children > a::after {
@@ -847,7 +848,8 @@ main {
   text-decoration: none;
   font-size: calc(16px + 0.25vw);
   text-decoration: none;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  margin: 0; }
 
 .index-featured img {
   width: 100%; }

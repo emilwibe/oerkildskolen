@@ -10,6 +10,7 @@
         navPrimaryLinks[i].classList.remove("is-open");
       }
       navPrimary.classList.remove("is-open");
+      document.body.classList.remove("no-scroll");
     }
   }, false);
 })();
@@ -42,6 +43,7 @@
 
   navTrigger.addEventListener("click", function(){
     navPrimary.classList.toggle("is-open");
+    document.body.classList.toggle("no-scroll");
   }, false);
 
 })();

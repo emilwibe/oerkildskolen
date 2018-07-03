@@ -1,16 +1,9 @@
 <?php get_header(); ?>
 <main>
 
-  <div class="wrapper lg">
+  <div class="wrapper sm">
 
-    <div class="row lg-col-33-66 md-col-33-66 sm-col-100 introduction">
-        <div>
-          <div>
-            <span class="hw"><?php the_field('index_signature'); ?></span>
-          </div>
-        </div>
-        <div>
-          <div>
+    <div class="introduction">
             <?php
 
               if(get_field('index_introduction')){
@@ -18,11 +11,10 @@
               }
 
             ?>
+    </div><!--/.introduction-->
+  </div><!--/.wrapper.sm-->
 
-          </div>
-        </div>
-
-  </div><!--/.row-->
+  <div class="wrapper lg">
 
   <?php get_template_part('template-parts/index', 'featured'); ?>
 

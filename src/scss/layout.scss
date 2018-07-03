@@ -73,6 +73,14 @@
   width:100%;
   height:100%;
 }
+@media screen and (max-width: 640px){
+  .module.image-text > div:nth-child(1){
+    order:2;
+  }
+  .module.image-text > div:nth-child(2){
+    order:1;
+  }
+}
 @media screen and (min-width:1001px){
   .nav.primary > ul{
     display:flex;

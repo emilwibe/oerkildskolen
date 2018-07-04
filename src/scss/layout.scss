@@ -95,6 +95,16 @@
     order:1;
   }
 }
+.module.activity .number{
+  color:$color-white;
+  background-color:$color-black;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+}
+.module.activity .description{
+  width:100%;
+}
 @media screen and (min-width:1001px){
   .nav.primary > ul{
     display:flex;

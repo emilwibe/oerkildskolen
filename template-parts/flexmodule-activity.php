@@ -4,7 +4,7 @@
     <ul>
   <?php while(have_rows('global_flex_date-week_list_activity')) : the_row(); ?>
 
-      <li class="flex">
+      <li class="flex flex-wrap">
         <div class="date">
           <span class="number"><?php the_sub_field('global_flex_date-week_list-number'); ?></span>
           <span class="week-date"><?php the_sub_field('global_flex_date-week_list-week-month'); ?></span>

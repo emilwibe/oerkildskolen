@@ -144,6 +144,16 @@ main {
   .module.image-text > div:nth-child(2) {
     order: 1; } }
 
+.module.activity .number {
+  color: #fefefe;
+  background-color: #333;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; }
+
+.module.activity .description {
+  width: 100%; }
+
 @media screen and (min-width: 1001px) {
   .nav.primary > ul {
     display: flex;
@@ -703,6 +713,9 @@ main {
 /*----FLEX----*/
 .flex {
   display: flex; }
+
+.flex-wrap {
+  flex-wrap: wrap; }
 
 .hw {
   font-family: "Allura", cursive; }

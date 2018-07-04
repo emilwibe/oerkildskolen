@@ -187,6 +187,6 @@
 .numbers{
   font-size:50px;
 }
-.enhanced .numbers [data-students*=""], .enhanced .numbers [data-teachers*=""]{
+.enhanced .numbers [data-students], .enhanced .numbers [data-teachers]{
   display:none;
 }

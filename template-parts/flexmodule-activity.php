@@ -2,7 +2,7 @@
 
   <div class="wrapper md module activity">
     <ul>
-  <?php while(have_rows('global_flex_date-week_list_activity')) : ?>
+  <?php while(have_rows('global_flex_date-week_list_activity')) : the_row(); ?>
 
       <li>
 

@@ -17,11 +17,13 @@
 })();
 /* DATA ATTRIBUTES ON NUMBERS PAGE */
 (function(){
-  var numbers = document.getElementsByClassName("numbers");
+  var numbers = document.getElementsByClassName("numbers")
+      students = document.getElementsByClassName("data-students")[0],
+      teachers = document.getElementsByClassName("data-teachers")[0]
+  ;
 
   if(numbers.length){
-    console.log(numbers.dataset[0]);
-    console.log("test");
+    students.innerHTML = "hello";
   }
 })();
 /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES */

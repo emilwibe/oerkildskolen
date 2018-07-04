@@ -96,7 +96,7 @@
   }
 }
 .module.activity .date{
-  min-width:72px;
+  min-width:120px;
   margin-right:32px;
 }
 .module.activity .number{
@@ -117,10 +117,8 @@
   font-size:14px;
 }
 .module.activity .description{
-  max-width:450px;
   margin-top:20px;
   margin-bottom:20px;
-  margin-left:auto;
   padding-bottom:20px;
   border-bottom:1px solid $color-grey;
 }

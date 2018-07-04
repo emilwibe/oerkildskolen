@@ -15,5 +15,5 @@
   <?php endwhile; ?>
 
   </ul>
-</div><!--/.wrapper.module.activity
+</div><!--/.wrapper.module.activity-->
 <?php endif; ?>

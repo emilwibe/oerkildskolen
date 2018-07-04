@@ -1,5 +1,6 @@
 // GLOBAL
 (function(){
+  "use strict";
   var navPrimary = document.getElementById("nav-primary"),
       navPrimaryLinks = navPrimary.querySelectorAll("a"),
       navPrimaryLinksLength = navPrimaryLinks.length
@@ -24,7 +25,7 @@
 
 /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES */
   var images = document.getElementsByTagName("IMG"),
-      imagesLength = images.length;
+      imagesLength = images.length
   ;
   if(imagesLength){
     for(i = 0 ; i < imagesLength ; i += 1){
@@ -51,4 +52,4 @@
     document.body.classList.toggle("no-scroll");
   }, false);
 
-})();
+}());

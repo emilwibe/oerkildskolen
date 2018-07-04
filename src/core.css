@@ -65,6 +65,9 @@ main {
 .wrapper.sm {
   max-width: 768px; }
 
+.wrapper.sm2 {
+  max-width: 400px; }
+
 .wrapper.fw {
   width: 100%; }
 

@@ -7,7 +7,7 @@
   ;
   document.addEventListener("click", function(e){
     if(e.target.tagName !== "A"){
-      for(i = 0; i < navPrimaryLinksLength; i += 1){
+      for(var i = 0; i < navPrimaryLinksLength; i += 1){
         navPrimaryLinks[i].classList.remove("is-open");
       }
       navPrimary.classList.remove("is-open");

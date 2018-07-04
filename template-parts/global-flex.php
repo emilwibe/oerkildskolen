@@ -45,7 +45,9 @@
 
       <?php unset($bgIMG); ?>
 
+    <?php elseif(get_row_layout() == 'global_flex_date-week_list') : ?>
 
+    <?php get_template_part('temnplate-parts/flexmodule', 'activity'); ?>
 
 
 

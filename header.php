@@ -10,7 +10,6 @@
 <body <?php body_class(); ?>>
   <script>
     (function(){
-      console.log("hello test");
       document.body.classList.add("enhanced");
       document.getElementsByTagName("html")[0].classList.remove("no-js");
     })();

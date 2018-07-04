@@ -1,6 +1,6 @@
 // GLOBAL
-console.log("test");
 (function(){
+  console.log("test");
   var navPrimary = document.getElementById("nav-primary"),
       navPrimaryLinks = navPrimary.querySelectorAll("a"),
       navPrimaryLinksLength = navPrimaryLinks.length

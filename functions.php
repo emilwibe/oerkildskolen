@@ -3,7 +3,7 @@
 add_action("wp_enqueue_scripts", function(){
   wp_enqueue_style("core-style", get_template_directory_uri() . "/dist/core.min.css", "", "");
   wp_enqueue_script("core-scripts-head", get_template_directory_uri() . "/dist/core-head.min.js", "", "", false);
-  wp_enqueue_script("core-scripts-footer", get_template_directory_uri() . "/dist/core-footer.min.js", "", date(), true);
+  wp_enqueue_script("core-scripts-footer", get_template_directory_uri() . "/dist/core-footer.min.js", "", rand(1, 194432898432), true);
 });
 
 register_nav_menus(array(

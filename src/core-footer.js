@@ -16,10 +16,10 @@
 })();
 /* DATA ATTRIBUTES ON NUMBERS PAGE */
 (function(){
-  var numbers = document.getElementsByClassName("numbers")[0];
+  var numbers = document.getElementsByClassName("numbers");
 
-  if(numbers){
-    console.log(numbers.dataset);
+  if(numbers.length){
+    console.log(numbers.dataset[0]);
   }
 })();
 /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES */

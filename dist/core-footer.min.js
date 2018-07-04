@@ -1,6 +1,5 @@
 // GLOBAL
 (function(){
-  console.log("test");
   var navPrimary = document.getElementById("nav-primary"),
       navPrimaryLinks = navPrimary.querySelectorAll("a"),
       navPrimaryLinksLength = navPrimaryLinks.length
@@ -14,20 +13,15 @@
       document.body.classList.remove("no-scroll");
     }
   }, false);
-})();
-
 
 /* DATA ATTRIBUTES ON NUMBERS PAGE */
-(function(){
   var numbers = document.getElementsByClassName("numbers"),
       students = document.getElementsByClassName("data-students")[0],
       teachers = document.getElementsByClassName("data-teachers")[0]
   ;
   console.log(students);
-})();
 
 /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES */
-(function(){
   var images = document.getElementsByTagName("IMG"),
       imagesLength = images.length;
   ;
@@ -37,10 +31,8 @@
       images[i].removeAttribute("height");
     }
   }
-})();
 
 /* NAVIGATION */
-(function(){
   var navPrimary = document.getElementById("nav-primary"),
       navTrigger = document.getElementById("nav-trigger"),
       subMenus = document.getElementsByClassName("sub-menu"),

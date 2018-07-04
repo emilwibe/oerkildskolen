@@ -144,6 +144,9 @@ main {
   .module.image-text > div:nth-child(2) {
     order: 1; } }
 
+.module.activity ul {
+  padding-left: 0; }
+
 .module.activity li {
   border-bottom: 1px solid #ddd;
   padding-bottom: 32px;

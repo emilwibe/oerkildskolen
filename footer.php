@@ -19,19 +19,24 @@
     }, false);
 
   /* DATA ATTRIBUTES ON NUMBERS PAGE */
-  var numbers = document.getElementsByClassName("numbers"),
-      students = document.getElementsByClassName("data-students")[0],
-      teachers = document.getElementsByClassName("data-teachers")[0],
-      studentsCounter = 0,
-      teachersCounter = 0,
-      countUpTimer = 1000
-  ;
-  console.log(students.dataset);
-  students.innerHTML = studentsCounter;
-  teachers.innerHTML = teachersCounter;
-  students.style.display = "block";
-  teachers.style.display = "block";
+  var numbers = document.getElementsByClassName("numbers");
 
+  if(numbers.length){
+    var students = document.getElementsByClassName("data-students")[0],
+        teachers = document.getElementsByClassName("data-teachers")[0],
+        studentsCounter = 0,
+        studentsTarget = students.dataset.students,
+        teachersCounter = 0,
+        teachersTarget = teachers.dataset.teachers,
+        countUpTimer = 1000
+    ;
+    students.innerHTML = studentsCounter;
+    teachers.innerHTML = teachersCounter;
+    students.style.display = "block";
+    teachers.style.display = "block";
+
+    
+  }
   /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES */
     var images = document.getElementsByTagName("IMG"),
         imagesLength = images.length

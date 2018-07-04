@@ -40,6 +40,10 @@
         studentsCounter += 1;
         students.innerHTML = studentsCounter;
       }
+      if(teachersCounter < teachersTarget){
+        teachersCounter += 1;
+        teachers.innerHTML = teachersCounter;
+      }
       if(studentsCounter == studentsTarget && teachersCounter == teachersTarget){
         clearInterval(counterMechanics);
       }

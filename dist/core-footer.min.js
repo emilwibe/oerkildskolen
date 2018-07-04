@@ -20,7 +20,7 @@
   }, false);
 
 /* DATA ATTRIBUTES ON NUMBERS PAGE */
-  
+    students.style.display = "block";
 
 
 /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES */

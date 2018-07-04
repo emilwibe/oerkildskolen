@@ -7,9 +7,12 @@
   ;
   document.addEventListener("click", function(e){
     if(e.target.tagName !== "A"){
-      for(var i = 0; i < navPrimaryLinksLength; i += 1){
+      /*for(i = 0; i < navPrimaryLinksLength; i += 1){
         navPrimaryLinks[i].classList.remove("is-open");
-      }
+      }*/
+      navPrimaryLinks.forEach(function(element){
+        element.classList.remove("is-open");
+      });
       navPrimary.classList.remove("is-open");
       document.body.classList.remove("no-scroll");
     }
@@ -35,8 +38,7 @@
   }
 
 /* NAVIGATION */
-  var navPrimary = document.getElementById("nav-primary"),
-      navTrigger = document.getElementById("nav-trigger"),
+  var navTrigger = document.getElementById("nav-trigger"),
       subMenus = document.getElementsByClassName("sub-menu"),
       subMenusLength = subMenus.length
   ;

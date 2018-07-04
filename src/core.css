@@ -145,7 +145,7 @@ main {
     order: 1; } }
 
 .module.activity .date {
-  min-width: 100px;
+  min-width: 72px;
   margin-right: 32px; }
 
 .module.activity .number {
@@ -161,6 +161,7 @@ main {
   margin: 0 auto; }
 
 .module.activity .week-date {
+  display: block;
   text-align: center;
   font-size: 14px; }
 

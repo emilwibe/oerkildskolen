@@ -1,4 +1,5 @@
 // GLOBAL
+console.log("test");
 (function(){
   var navPrimary = document.getElementById("nav-primary"),
       navPrimaryLinks = navPrimary.querySelectorAll("a"),

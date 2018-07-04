@@ -15,17 +15,14 @@
     }
   }, false);
 })();
-/* DATA ATTRIBUTES ON NUMBERS PAGE */
-(function(){
-  var numbers = document.getElementsByClassName("numbers")
-      students = document.getElementsByClassName("data-students")[0],
-      teachers = document.getElementsByClassName("data-teachers")[0]
-  ;
 
-  if(numbers.length){
-    students.innerHTML = "hello";
-  }
-})();
+
+/* DATA ATTRIBUTES ON NUMBERS PAGE */
+var numbers = document.getElementsByClassName("numbers")
+    students = document.getElementsByClassName("data-students")[0],
+    teachers = document.getElementsByClassName("data-teachers")[0]
+;
+students.innerHTML = "hello";
 /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES */
 (function(){
   var images = document.getElementsByTagName("IMG"),

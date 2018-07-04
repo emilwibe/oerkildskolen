@@ -31,10 +31,10 @@
         imagesLength = images.length
     ;
     if(imagesLength){
-      images.forEach(function(element){
-        element.removeAttribute("width");
-        element.removeAttribute("height");
-      });
+      for(i = 0; i < imagesLength, i++){
+        images[i].removeAttribute("width");
+        images[i].removeAttribute("height");
+      }
     }
 
   /* NAVIGATION */

@@ -59,7 +59,6 @@ gulp.task("jsFooter", ()=>{
   return gulp.src(paths.jsFooter)
     .pipe(concat("core-footer.js"))
     .pipe(gulp.dest("./src"))
-    .pipe(uglify())
     .pipe(rename("core-footer.min.js"))
     .pipe(gulp.dest("./dist"))
 });

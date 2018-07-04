@@ -3,9 +3,7 @@
 
     <?php if(get_row_layout() == 'global_flex_text') : ?>
 
-      <div class="wrapper sm module text">
-        <?php the_sub_field('global_flex_text_module'); ?>
-      </div><!--/.wrapper.sm.module.text-->
+      <?php get_template_part('template-parts/flexmodule', 'text'); ?>
 
 
 

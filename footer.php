@@ -35,7 +35,15 @@
     students.style.display = "block";
     teachers.style.display = "block";
 
-
+    var counterMechanics = setInterval(function(){
+      if(studentsCounter < studentsTarget){
+        studentsCounter += 1;
+        students.innerHTML = studentsCounter;
+      }
+      if(studentsCounter == studentsTarget && teachersCounter == teachersTarget){
+        clearInterval(counterMechanics);
+      }
+    }, 200);
   }
   /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES */
     var images = document.getElementsByTagName("IMG"),

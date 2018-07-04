@@ -743,6 +743,9 @@ main {
 .flex-wrap {
   flex-wrap: wrap; }
 
+.just-between {
+  justify-content: space-between; }
+
 .align-center {
   align-items: center; }
 
@@ -918,3 +921,6 @@ main {
 
 .index-featured img {
   width: 100%; }
+
+.numbers {
+  font-size: 50px; }

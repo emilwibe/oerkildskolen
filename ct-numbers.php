@@ -15,8 +15,8 @@ Template Name: I Tal
   </div><!--/.wrapper-md-->
 
   <div class="wrapper lg">
-    <div class="antal"></div>
-    <div class="antal"></div>
+    <div class="antal flex just-between"><span>Antal Elever</span><span><?php the_field('numbers_students'); ?></span></div>
+    <div class="antal flex-just-between"><span>Antal Lærere</span><?php the_field('numbers_teachers'); ?><span></span></div>
   </div>
 
   <?php endif; ?>

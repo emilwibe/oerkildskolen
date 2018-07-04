@@ -10,11 +10,11 @@ Template Name: I Tal
 
   <?php if(!is_front_page()) : ?>
 
-  <div class="wrapper sm2">
+  <div class="wrapper sm">
     <h1><?php the_title(); ?></h1>
   </div><!--/.wrapper-md-->
 
-  <div class="wrapper sm numbers">
+  <div class="wrapper sm2 numbers">
     <div class="antal flex just-between"><span>Antal Elever</span><span data-students="<?php the_field('numbers_students'); ?>"><?php the_field('numbers_students'); ?></span></div>
     <div class="antal flex just-between"><span>Antal Lærere</span><span data-teachers="<?php the_field('numbers_teachers'); ?>"><?php the_field('numbers_teachers'); ?></span></div>
   </div>

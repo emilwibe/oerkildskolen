@@ -95,7 +95,11 @@
     order:1;
   }
 }
+.module.activity .date{
+  margin-right:32px;
+}
 .module.activity .number{
+  font-size:22px;
   color:$color-white;
   background-color:$color-black;
   width:50px;
@@ -103,6 +107,10 @@
   border-radius:50%;
   display:block;
   line-height:50px;
+  text-align:center;
+  margin:0 auto;
+}
+.module.activity .week-date{
   text-align:center;
 }
 .module.activity .description{

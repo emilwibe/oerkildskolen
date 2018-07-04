@@ -18,7 +18,7 @@
 
 
 /* DATA ATTRIBUTES ON NUMBERS PAGE */
-var numbers = document.getElementsByClassName("numbers")
+var numbers = document.getElementsByClassName("numbers"),
     students = document.getElementsByClassName("data-students")[0],
     teachers = document.getElementsByClassName("data-teachers")[0]
 ;

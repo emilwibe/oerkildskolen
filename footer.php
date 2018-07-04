@@ -35,7 +35,7 @@
     students.style.display = "block";
     teachers.style.display = "block";
 
-    
+
   }
   /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES */
     var images = document.getElementsByTagName("IMG"),
@@ -43,7 +43,7 @@
     ;
 
     if(imagesLength){
-      for(i = 0; i < imagesLength; i++){
+      for(var i = 0; i < imagesLength; i++){
         images[i].removeAttribute("width");
         images[i].removeAttribute("height");
       }

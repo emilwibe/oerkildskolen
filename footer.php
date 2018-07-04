@@ -43,7 +43,7 @@
       if(studentsCounter == studentsTarget && teachersCounter == teachersTarget){
         clearInterval(counterMechanics);
       }
-    }, 200);
+    }, 50);
   }
   /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES */
     var images = document.getElementsByTagName("IMG"),

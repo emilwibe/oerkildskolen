@@ -23,15 +23,15 @@
     }, false);
 
   /* DATA ATTRIBUTES ON NUMBERS PAGE */
-      students.style.display = "block";
-
+  students.style.display = "block";
 
   /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES */
     var images = document.getElementsByTagName("IMG"),
         imagesLength = images.length
     ;
+
     if(imagesLength){
-      for(i = 0; i < imagesLength, i++){
+      for(i = 0; i < imagesLength; i++){
         images[i].removeAttribute("width");
         images[i].removeAttribute("height");
       }

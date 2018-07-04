@@ -14,6 +14,14 @@
     }
   }, false);
 })();
+/* DATA ATTRIBUTES ON NUMBERS PAGE */
+(function(){
+  var numbers = document.getElementsByClassName("numbers");
+
+  if(numbers){
+    console.log(numbers.dataset);
+  }
+})();
 /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES */
 (function(){
   var images = document.getElementsByTagName("IMG"),

@@ -19,7 +19,7 @@
       students = document.getElementsByClassName("data-students")[0],
       teachers = document.getElementsByClassName("data-teachers")[0]
   ;
-  console.log(students);
+  students.style.display = "block";
 
 /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES */
   var images = document.getElementsByTagName("IMG"),

@@ -7,9 +7,6 @@
   ;
   document.addEventListener("click", function(e){
     if(e.target.tagName !== "A"){
-      /*for(i = 0; i < navPrimaryLinksLength; i += 1){
-        navPrimaryLinks[i].classList.remove("is-open");
-      }*/
       navPrimaryLinks.forEach(function(element){
         element.classList.remove("is-open");
       });
@@ -31,10 +28,10 @@
       imagesLength = images.length
   ;
   if(imagesLength){
-    for(i = 0 ; i < imagesLength ; i += 1){
-      images[i].removeAttribute("width");
-      images[i].removeAttribute("height");
-    }
+    images.forEach(function(element){
+      element.removeAttribute("width");
+      element.removeAttribute("height");
+    });
   }
 
 /* NAVIGATION */
@@ -42,7 +39,6 @@
       subMenus = document.getElementsByClassName("sub-menu"),
       subMenusLength = subMenus.length
   ;
-
   navPrimary.addEventListener("click", function(e){
     if(e.target.tagName === "A"){
       e.target.classList.toggle("is-open");

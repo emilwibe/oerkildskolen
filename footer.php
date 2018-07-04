@@ -23,7 +23,9 @@
       students = document.getElementsByClassName("data-students")[0],
       teachers = document.getElementsByClassName("data-teachers")[0],
       studentsCounter = 0,
-      teachersCounter = 0
+      console.log(students.dataset);
+      teachersCounter = 0,
+      countUpTimer = 1000
   ;
   students.innerHTML = studentsCounter;
   teachers.innerHTML = teachersCounter;

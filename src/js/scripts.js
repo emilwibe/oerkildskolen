@@ -20,6 +20,7 @@
 
   if(numbers.length){
     console.log(numbers.dataset[0]);
+    console.log("test");
   }
 })();
 /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES */

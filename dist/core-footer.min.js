@@ -16,7 +16,7 @@
 })();
 /* DATA ATTRIBUTES ON NUMBERS PAGE */
 (function(){
-  var numbers = document.getElementsByClassName("numbers");
+  var numbers = document.getElementsByClassName("numbers")[0];
 
   if(numbers){
     console.log(numbers.dataset);

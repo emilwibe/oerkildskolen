@@ -18,11 +18,14 @@
 
 
 /* DATA ATTRIBUTES ON NUMBERS PAGE */
-var numbers = document.getElementsByClassName("numbers"),
-    students = document.getElementsByClassName("data-students")[0],
-    teachers = document.getElementsByClassName("data-teachers")[0]
-;
-students.innerHTML = "hello";
+(function(){
+  var numbers = document.getElementsByClassName("numbers"),
+      students = document.getElementsByClassName("data-students")[0],
+      teachers = document.getElementsByClassName("data-teachers")[0]
+  ;
+  console.log(students);
+})();
+
 /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES */
 (function(){
   var images = document.getElementsByTagName("IMG"),

@@ -146,8 +146,8 @@ main {
 
 .module.activity li {
   border-bottom: 1px solid #ddd;
-  padding-bottom: 20px;
-  margin-bottom: 20px; }
+  padding-bottom: 32px;
+  margin-bottom: 40px; }
 
 .module.activity .date {
   min-width: 120px;

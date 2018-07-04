@@ -3,7 +3,11 @@
   "use strict";
   var navPrimary = document.getElementById("nav-primary"),
       navPrimaryLinks = navPrimary.querySelectorAll("a"),
-      navPrimaryLinksLength = navPrimaryLinks.length
+      navPrimaryLinksLength = navPrimaryLinks.length,
+
+      numbers = document.getElementsByClassName("numbers"),
+      students = document.getElementsByClassName("data-students")[0],
+      teachers = document.getElementsByClassName("data-teachers")[0]
   ;
   document.addEventListener("click", function(e){
     if(e.target.tagName !== "A"){
@@ -16,12 +20,8 @@
   }, false);
 
 /* DATA ATTRIBUTES ON NUMBERS PAGE */
-  var numbers = document.getElementsByClassName("numbers"),
-      students = document.getElementsByClassName("data-students")[0],
-      teachers = document.getElementsByClassName("data-teachers")[0]
-  ;
-  console.log(numbers);
-  students.style.display = "block";
+  
+
 
 /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES */
   var images = document.getElementsByTagName("IMG"),

@@ -49,6 +49,14 @@
       }
     }, 5);
   }
+  var grades = document.getElementsByClassName("grades");
+  if(grades.length){
+    grades[0].addEventListener("click", function(e){
+      if(e.target.tagName == "H3"){
+        e.target.parentNode.classList.toggle("is-closed");
+      }
+    }, false);
+  }
   /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES */
     var images = document.getElementsByTagName("IMG"),
         imagesLength = images.length

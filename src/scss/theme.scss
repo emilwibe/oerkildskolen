@@ -197,3 +197,47 @@
 .enhanced .numbers [data-students], .enhanced .numbers [data-teachers]{
   display:none;
 }
+.grades.numbers > div + div{
+  border-top: 1px solid $color-lightgrey;
+}
+.grades.numbers .is-closed .grade{
+  max-height:0;
+  overflow:hidden;
+}
+.grades.numbers h3{
+  font-family:$serif-font;
+  color:$color-darkgrey;
+  font-size:20px;
+  font-weight:400;
+  margin:10px;
+  padding:10px 0;
+  transition:color 0.4s;
+}
+.grades.numbers h3:hover{
+  color:$color-primary;
+}
+.grades.numbers li{
+  list-style-type:none;
+}
+.grade{
+  width:100%;
+  padding:0 10px;
+}
+.grade ul{
+  margin:0;
+  padding:0;
+}
+.grade ul + ul{
+  margin-top:10px;
+}
+.grade li{
+  list-style-type:none;
+  border-bottom:1px solid #eee;
+}
+.grade .b{
+  font-weight:bold;
+}
+.grade > ul > li{
+  display:flex;
+  justify-content:space-between;
+}

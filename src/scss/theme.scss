@@ -210,11 +210,18 @@
   font-size:20px;
   font-weight:400;
   margin:10px;
-  padding:10px 0;
+  padding:18px 0;
   transition:color 0.4s;
 }
-.grades.numbers h3:hover{
+.grades.numbers h3:hover, .grades.numbers h3::after{
   color:$color-primary;
+  cursor:pointer;
+}
+.grades.numbers h3::after{
+  content:'\2193';
+  float:right;
+  color:$color-lightgrey;
+  font-size:22px;
 }
 .grades.numbers li{
   list-style-type:none;

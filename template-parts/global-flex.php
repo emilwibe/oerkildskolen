@@ -33,6 +33,10 @@
 
       <?php get_template_part('template-parts/flexmodule', 'staff'); ?>
 
+    <?php elseif(get_row_layout() == 'global_flex_files_list') : ?>
+
+      <?php get_template_part('template-parts/flexmodule', 'files'); ?>
+
     <?php endif; ?>
 
   <?php endwhile; ?>

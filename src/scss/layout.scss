@@ -6,7 +6,7 @@
   width:94%;
 }
 .wrapper.lg{
-  max-width:1200px;
+  max-width:1400px;
 }
 .wrapper.md{
   max-width:1024px;
@@ -133,6 +133,41 @@
 }
 .module.activity .description{
   font-weight:bold;
+}
+.module.files ul{
+  padding:0;
+}
+.module.files li{
+  list-style-type:none;
+}
+.module.files li + li{
+  border-top:1px solid $color-lightgrey;
+}
+.module.files a{
+  font-family:$serif-font;
+  color:$color-darkgrey;
+  font-size:20px;
+  font-weight:400;
+  line-height:40px;
+  transition:color 0.4s;
+  display:block;
+  margin:10px;
+  padding:18px 0;
+}
+.module.files a::after{
+  display:block;
+  content:'';
+  width:20px;
+  height:20px;
+  background-image:url('../assets/icon-download.svg');
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:100%;
+  float:right;
+  transform:translate(0, 50%);
+}
+.module.files a:hover{
+  color:$color-primary;
 }
 @media screen and (min-width:1001px){
   .nav.primary > ul{

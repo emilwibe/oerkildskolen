@@ -57,7 +57,7 @@ main {
   width: 94%; }
 
 .wrapper.lg {
-  max-width: 1200px; }
+  max-width: 1400px; }
 
 .wrapper.md {
   max-width: 1024px; }
@@ -182,6 +182,41 @@ main {
 
 .module.activity .description {
   font-weight: bold; }
+
+.module.files ul {
+  padding: 0; }
+
+.module.files li {
+  list-style-type: none; }
+
+.module.files li + li {
+  border-top: 1px solid #ddd; }
+
+.module.files a {
+  font-family: "Roboto Slab", serif;
+  color: #404040;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  transition: color 0.4s;
+  display: block;
+  margin: 10px;
+  padding: 18px 0; }
+
+.module.files a::after {
+  display: block;
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/icon-download.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  float: right;
+  transform: translate(0, 50%); }
+
+.module.files a:hover {
+  color: #3399cc; }
 
 @media screen and (min-width: 1001px) {
   .nav.primary > ul {
@@ -950,11 +985,18 @@ main {
   font-size: 20px;
   font-weight: 400;
   margin: 10px;
-  padding: 10px 0;
+  padding: 18px 0;
   transition: color 0.4s; }
 
-.grades.numbers h3:hover {
-  color: #3399cc; }
+.grades.numbers h3:hover, .grades.numbers h3::after {
+  color: #3399cc;
+  cursor: pointer; }
+
+.grades.numbers h3::after {
+  content: '\2193';
+  float: right;
+  color: #ddd;
+  font-size: 22px; }
 
 .grades.numbers li {
   list-style-type: none; }

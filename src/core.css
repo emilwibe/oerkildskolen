@@ -17,7 +17,8 @@ html, body, div {
   padding: 0; }
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  word-wrap: break-word; }
 
 ::selection {
   color: #fefefe;
@@ -217,6 +218,22 @@ main {
 
 .module.files a:hover {
   color: #3399cc; }
+
+.member > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.member > div, .member > div > div {
+  height: 100%; }
+
+.staff-image {
+  width: 100% !important; }
+
+.staff-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold; }
 
 @media screen and (min-width: 1001px) {
   .nav.primary > ul {

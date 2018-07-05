@@ -24,6 +24,7 @@ html, body, div{
 }
 *{
   box-sizing:border-box;
+  word-wrap:break-word;
 }
 ::selection{
   color: $color-white;

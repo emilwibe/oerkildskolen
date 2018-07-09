@@ -16,6 +16,11 @@
   </script>
 
   <div class="wrapper lg">
+    <ul class="intra-links">
+      <li><a href="http://www.orkildskolen.skoleintra.dk/li">Personaleintra</a></li>
+      <li><a href="http://www.orkildskolen.skoleintra.dk/fi">Forældreintra</a></li>
+      <li><a href="http://www.orkildskolen.skoleintra.dk/pi">Elevintra</a></li>
+    </ul>
     <header class="header primary">
       <div class="menu-toggle">
         <a href="#" id="nav-trigger">Menu</a>

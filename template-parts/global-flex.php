@@ -37,6 +37,10 @@
 
       <?php get_template_part('template-parts/flexmodule', 'files'); ?>
 
+    <?php elseif(get_row_layout() == 'global_flex_list') : ?>
+
+      <?php get_template_part('template-parts/flexmodule', 'list2D'); ?>
+
     <?php endif; ?>
 
   <?php endwhile; ?>

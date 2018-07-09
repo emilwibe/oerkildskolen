@@ -169,6 +169,15 @@
 .module.files a:hover{
   color:$color-primary;
 }
+.module.list ul{
+  padding:0;
+}
+.module.list li{
+  margin:6px 0;
+}
+.module.list span{
+  max-width:48%;
+}
 .member > div > div{
   display:flex;
   flex-direction:column;

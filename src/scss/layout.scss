@@ -28,7 +28,7 @@
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:20px 0;
+  padding:10px 0;
   position:relative;
 }
 .module{
@@ -139,6 +139,7 @@
 }
 .module.files li{
   list-style-type:none;
+  position:relative;
 }
 .module.files li + li{
   border-top:1px solid $color-lightgrey;
@@ -164,7 +165,10 @@
   background-repeat:no-repeat;
   background-size:100%;
   float:right;
-  transform:translate(0, 50%);
+  transform:translate(0, -50%);
+  position:absolute;
+  top:50%;
+  right:10px;
 }
 .module.files a:hover{
   color:$color-primary;

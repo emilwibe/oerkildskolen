@@ -15,6 +15,7 @@
               ?>
 
               <h2><?php the_sub_field('index_featured_heading_1'); ?></h2>
+              <p><?php the_sub_field('index_featured_text_1'); ?></p>
             </a>
           </div>
         </div>
@@ -31,6 +32,7 @@
               ?>
 
               <h2><?php the_sub_field('index_featured_heading_2'); ?></h2>
+              <p><?php the_sub_field('index_featured_text_2'); ?></p>
             </a>
           </div>
         </div>
@@ -47,6 +49,7 @@
               ?>
 
               <h2><?php the_sub_field('index_featured_heading_3'); ?></h2>
+              <p><?php the_sub_field('index_featured_text_3'); ?></p>
             </a>
           </div>
         </div>

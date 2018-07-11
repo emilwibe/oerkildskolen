@@ -80,7 +80,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 10px 0;
   position: relative; }
 
 .module {
@@ -188,7 +188,8 @@ main {
   padding: 0; }
 
 .module.files li {
-  list-style-type: none; }
+  list-style-type: none;
+  position: relative; }
 
 .module.files li + li {
   border-top: 1px solid #ddd; }
@@ -214,7 +215,10 @@ main {
   background-repeat: no-repeat;
   background-size: 100%;
   float: right;
-  transform: translate(0, 50%); }
+  transform: translate(0, -50%);
+  position: absolute;
+  top: 50%;
+  right: 10px; }
 
 .module.files a:hover {
   color: #3399cc; }
@@ -873,7 +877,7 @@ main {
     position: absolute;
     z-index: 10;
     left: 0;
-    top: 58px;
+    top: 52px;
     width: 100%;
     max-height: 0;
     padding-left: 50%;
@@ -986,6 +990,9 @@ main {
 .index-featured img {
   width: 100%; }
 
+.index-featured a p {
+  color: #333; }
+
 .numbers {
   font-size: 50px;
   margin-top: 50px;
@@ -1051,4 +1058,17 @@ main {
 
 .intra-links {
   max-width: 100%;
-  display: flex; }
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto; }
+
+.intra-links li {
+  list-style-type: none; }
+
+.intra-links a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #333;
+  display: block;
+  margin: 0 4px; }

@@ -24,6 +24,7 @@ let paths = {
     "./src/js/conic-gradient.js"
   ],
   jsFooter: [
+    "./src/js/scrollreveal.min.js",
     "./src/js/scripts.js"
   ]
 };

@@ -1,6 +1,7 @@
 @media screen and (min-width:1025px){
   .lg-col-33 > *{
     width:calc(100% / 3);
+    flex:1;
   }
   .lg-col-33 > *:nth-child(n+4){
     margin-top:1em;

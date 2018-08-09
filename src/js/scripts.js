@@ -3,8 +3,13 @@
   "use strict";
   var navPrimary = document.getElementById("nav-primary"),
       navPrimaryLinks = navPrimary.querySelectorAll("a"),
-      navPrimaryLinksLength = navPrimaryLinks.length
+      navPrimaryLinksLength = navPrimaryLinks.length,
+      logoImage = document.getElementsByClassName("logo")[0],
+      isIE11 = !!window.MSInputMethodContext && !!document.documentMode
   ;
+  if(isIE11){
+    logoImage.setAttribute("src", logoImage.dataset.pnglogo);
+  }
   document.addEventListener("click", function(e){
     if(e.target.tagName !== "A"){
       navPrimaryLinks.forEach(function(element){

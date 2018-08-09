@@ -2,6 +2,7 @@
 and (max-width:1024px){
   .md-col-33 > *{
     width:calc(100% / 3);
+    flex:1;
   }
   .md-col-33 > *:nth-child(n+4){
     margin-top:1em;

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <div class="wrapper md">
+    <div class="wrapper sm2">
         <div class="wysiwyg">
             <h1>Fejl 404</h1>
 

@@ -13,9 +13,9 @@
   }
   document.addEventListener("click", function(e){
     if(e.target.tagName !== "A"){
-      navPrimaryLinks.forEach(function(element){
-        element.classList.remove("is-open");
-      });
+      for(i = 0 ; i < navPrimaryLinksLength ; i += 1){
+        navPrimaryLinks[i].classList.remove("is-open");
+      }
       navPrimary.classList.remove("is-open");
       document.body.classList.remove("no-scroll");
     }

@@ -85,16 +85,7 @@
   }
 }
 @media screen and (max-width:1000px){
-  .menu-toggle{
-    display:block;
-    width:100%;
-    position:fixed;
-    z-index:30;
-    bottom:0;
-    right:0;
-  }
   .menu-toggle a{
-    background-color:$color-black;
     color:$color-white;
     text-decoration:none;
     font-size:20px;
@@ -143,8 +134,15 @@
   .nav.primary > ul a.is-open + .sub-menu{
     max-height:1000px;
   }
+  .menu-item-has-children > a{
+    position:relative;
+  }
   .menu-item-has-children > a::after{
     margin-right:20px;
+    line-height:1.5;
+  }
+  .nav.primary a{
+    display:block;
   }
 }
 .nav.blocks{

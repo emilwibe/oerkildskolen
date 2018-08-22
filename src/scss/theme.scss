@@ -51,6 +51,9 @@
   margin-right:6px;
 }
 @media screen and (min-width:1001px){
+  .nav-trigger{
+    display:none;
+  }
   .nav.primary .sub-menu{
     position:absolute;
     z-index:10;
@@ -86,6 +89,7 @@
 }
 @media screen and (max-width:1000px){
   .nav-trigger{
+    display:block;
     position: fixed;
     right: 20px;
     bottom: 20px;

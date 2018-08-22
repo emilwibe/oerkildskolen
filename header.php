@@ -22,7 +22,7 @@
       <li><a href="http://www.orkildskolen.skoleintra.dk/pi">Elevintra</a></li>
     </ul>
     <header class="header primary">
-      <a href="#" id="nav-trigger">Menu</a>
+      <a href="#" id="nav-trigger" class="nav-trigger">Menu</a>
       <a href="<?php echo get_site_url(); ?>" class="logo-link"><img src="<?php echo get_template_directory_uri() . "/assets/oerkildskolen-logo-black.svg"; ?>" data-pnglogo="<?php echo get_template_directory_uri() . "/assets/oerkildskolen-logo-black.png"; ?>" alt="Ørkildskolen Logo" class="logo"></a>
 
       <?php get_template_part("template-parts/nav", "primary"); ?>

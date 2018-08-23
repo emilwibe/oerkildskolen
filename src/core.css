@@ -862,9 +862,11 @@ main {
   font-weight: bold;
   text-transform: uppercase;
   color: #333;
-  /*display:block;*/
   padding: 16px 6px;
   font-size: calc(10px + 0.25vw); }
+
+@media screen and (max-width: 1000px) {
+  font-size: calc(16px + 0.25vw); }
 
 .nav.primary .cta a {
   color: #fefefe;

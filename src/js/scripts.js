@@ -78,14 +78,18 @@ if(grades.length){
 /* NAVIGATION */
   var navTrigger = document.getElementById("nav-trigger"),
       subMenus = document.getElementsByClassName("sub-menu"),
-      subMenusLength = subMenus.length
+      subMenusLength = subMenus.length,
+      containsIsOpen
   ;
   navPrimary.addEventListener("click", function(e){
     if(e.target.tagName === "A"){
+      containsIsOpen = e.target.classList.contains("is-open");
       for(i = 0; i < subMenusLength; i += 1){
         subMenus[i].previousElementSibling.classList.remove("is-open");
       }
-      e.target.classList.toggle("is-open");
+      if(!containsIsOpen){
+        e.target.classList.add("is-open");
+      }
     }
   }, false);
 

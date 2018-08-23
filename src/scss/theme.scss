@@ -25,9 +25,6 @@
   padding:16px 6px;
   font-size:calc(10px + 0.25vw);
 }
-@media screen and (max-width:1000px){
-  font-size:calc(16px + 0.25vw);
-}
 .nav.primary .cta a{
   color:$color-white;
   background-color:$color-black;
@@ -128,6 +125,7 @@
   }
   .nav.primary a{
     font-family: $sans-font;
+    font-size:calc(16px + 0.25vw);
   }
   .nav.primary.is-open{
     display:flex;

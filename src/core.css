@@ -865,9 +865,6 @@ main {
   padding: 16px 6px;
   font-size: calc(10px + 0.25vw); }
 
-@media screen and (max-width: 1000px) {
-  font-size: calc(16px + 0.25vw); }
-
 .nav.primary .cta a {
   color: #fefefe;
   background-color: #333;
@@ -958,7 +955,8 @@ main {
     display: none;
     z-index: 20; }
   .nav.primary a {
-    font-family: "Roboto", sans-serif; }
+    font-family: "Roboto", sans-serif;
+    font-size: calc(16px + 0.25vw); }
   .nav.primary.is-open {
     display: flex;
     padding: 0 50px; }

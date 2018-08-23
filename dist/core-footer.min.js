@@ -83,13 +83,9 @@ if(grades.length){
   ;
   navPrimary.addEventListener("click", function(e){
     if(e.target.tagName === "A"){
-      /*for(i = 0; i < subMenusLength; i += 1){
-        subMenus[i].previousSibling.classList.remove("is-open");
-      }*/
-
-      console.log("subMenus " + subMenus);
-      console.log("subMenu prev sibling " + subMenus[1]);
-      console.log("subMenu prev sibling " + subMenus[1].previousElementSibling.tagName);
+      for(i = 0; i < subMenusLength; i += 1){
+        subMenus[i].previousElementSibling.classList.remove("is-open");
+      }
       e.target.classList.toggle("is-open");
     }
   }, false);

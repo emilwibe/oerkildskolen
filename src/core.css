@@ -959,7 +959,7 @@ main {
     font-size: calc(16px + 0.25vw); }
   .nav.primary.is-open {
     display: flex;
-    padding: 0 50px; }
+    padding: 0 20px; }
   .nav.primary.is-open > ul {
     margin-top: 100px;
     margin-bottom: 100px; }

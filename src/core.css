@@ -959,7 +959,7 @@ main {
     font-size: calc(16px + 0.25vw); }
   .nav.primary > ul {
     overflow: auto;
-    margin: 100px auto; }
+    margin: 20px auto; }
   .nav.primary > ul > li {
     padding: 0 10px; }
   .nav.primary > ul .sub-menu {

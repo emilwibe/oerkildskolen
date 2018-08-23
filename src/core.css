@@ -953,12 +953,13 @@ main {
     transition: transform 0.4s; }
   .nav.primary.is-open {
     transform: translateX(0);
-    overflow: auto; }
+    overflow: auto;
+    display: flex; }
   .nav.primary a {
     font-family: "Roboto", sans-serif;
     font-size: calc(16px + 0.25vw); }
   .nav.primary.is-open > ul {
-    margin-bottom: 200px; }
+    margin: 100px auto; }
   .nav.primary > ul {
     overflow: auto; }
   .nav.primary > ul > li {

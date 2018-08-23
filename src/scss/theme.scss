@@ -123,6 +123,7 @@
   .nav.primary.is-open{
     transform:translateX(0);
     overflow:auto;
+    display:flex;
   }
   .nav.primary a{
     font-family: $sans-font;
@@ -130,7 +131,7 @@
   }
 
   .nav.primary.is-open > ul{
-    margin-bottom:200px;
+    margin:100px auto;
   }
   .nav.primary > ul{
     overflow:auto;

@@ -89,7 +89,7 @@ if(grades.length){
 
       console.log("subMenus " + subMenus);
       console.log("subMenu prev sibling " + subMenus[1]);
-      console.log("subMenu prev sibling " + subMenus[1].previousElementSibling);
+      console.log("subMenu prev sibling " + subMenus[1].previousElementSibling.tagName;
       e.target.classList.toggle("is-open");
     }
   }, false);

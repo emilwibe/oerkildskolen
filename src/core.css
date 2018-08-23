@@ -943,23 +943,19 @@ main {
     float: right; }
   .nav.primary {
     position: fixed;
-    bottom: 0;
+    top: 0;
     right: 0;
+    transform: translateX(100%);
     background-color: #fefefe;
     width: 100%;
     height: 100vh;
-    overflow: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
-    z-index: 20; }
+    z-index: 20;
+    transition: transform 0.4s; }
+  .nav.primary.is-open {
+    transform: translateX(0); }
   .nav.primary a {
     font-family: "Roboto", sans-serif;
     font-size: calc(16px + 0.25vw); }
-  .nav.primary.is-open {
-    display: flex;
-    padding: 0 20px; }
   .nav.primary.is-open > ul {
     margin-top: 100px;
     margin-bottom: 100px; }

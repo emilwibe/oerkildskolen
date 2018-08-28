@@ -21,10 +21,10 @@
   }, false);
 
   /* REMOVE WIDTH AND HEIGHT ATTRIBUTES FROM IMAGES AND ADDING ->SCROLL REVEAL<- */
-    var sr = ScrollReveal(),
+    /*var sr = ScrollReveal(),
         images = document.getElementsByTagName("IMG"),
         imagesLength = images.length
-    ;
+    ;*/
 
     if(imagesLength){
       for(var i = 0; i < imagesLength; i++){

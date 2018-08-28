@@ -1108,4 +1108,8 @@ main {
 .footer.list li {
   font-family: "Roboto Slab", serif;
   font-size: 16px;
-  padding: 0 10px; }
+  padding: 0 10px;
+  list-style-type: none; }
+
+.footer.list a {
+  font-size: 16px; }

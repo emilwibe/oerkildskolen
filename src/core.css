@@ -206,7 +206,8 @@ main {
   transition: color 0.4s;
   display: block;
   margin: 10px;
-  padding: 18px 0; }
+  padding: 18px 0;
+  padding-right: 32px; }
 
 .module.files a::after {
   display: block;

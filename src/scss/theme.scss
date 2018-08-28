@@ -277,3 +277,14 @@
   display:block;
   margin:0 4px;
 }
+.footer.list{
+  display:flex;
+  justify-content: center;
+  max-width:1400px;
+  margin:0 auto;
+}
+.footer.list li{
+  font-family:$serif-font;
+  font-size:16px;
+  padding:0 10px;
+}

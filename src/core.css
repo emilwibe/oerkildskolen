@@ -1098,3 +1098,14 @@ main {
   color: #333;
   display: block;
   margin: 0 4px; }
+
+.footer.list {
+  display: flex;
+  justify-content: center;
+  max-width: 1400px;
+  margin: 0 auto; }
+
+.footer.list li {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  padding: 0 10px; }

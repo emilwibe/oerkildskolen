@@ -21,7 +21,7 @@ Template Name: I Tal
 
       <div class="wrapper sm2 numbers">
         <div class="antal flex just-between"><span>Antal Elever</span><span data-students="<?php the_field('numbers_students'); ?>" class="data-students"><?php the_field('numbers_students'); ?></span></div>
-        <div class="antal flex just-between"><span>Antal Lærere</span><span data-teachers="<?php the_field('numbers_teachers'); ?>" class="data-teachers"><?php the_field('numbers_teachers'); ?></span></div>
+        <div class="antal flex just-between"><span>Antal Ansatte</span><span data-teachers="<?php the_field('numbers_teachers'); ?>" class="data-teachers"><?php the_field('numbers_teachers'); ?></span></div>
       </div>
       <?php get_template_part('template-parts/numbers'); ?>
     <?php endwhile; ?>

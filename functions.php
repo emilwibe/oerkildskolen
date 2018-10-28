@@ -11,6 +11,7 @@ register_nav_menus(array(
 ));
 
 add_theme_support('title-tag');
+add_theme_support('post-thumbnails');
 
 add_filter('style_loader_tag', 'myplugin_remove_type_attr', 10, 2);
 add_filter('script_loader_tag', 'myplugin_remove_type_attr', 10, 2);

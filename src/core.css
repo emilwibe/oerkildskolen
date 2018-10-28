@@ -836,9 +836,6 @@ main {
 .align-center {
   align-items: center; }
 
-.hw {
-  font-family: "Allura", cursive; }
-
 .logo {
   height: 40px; }
 
@@ -1010,7 +1007,7 @@ main {
   text-decoration: none;
   font-size: calc(16px + 0.25vw);
   text-decoration: none;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Slab", serif;
   margin: 0; }
 
 .index-featured img {

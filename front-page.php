@@ -4,6 +4,10 @@
   <div class="wrapper sm">
 
     <div class="introduction">
+      <?php if(get_field('index_signature')) : ?>
+
+        <h1><?php the_field('index_signature'); ?></h1>
+      <?php endif; ?>
             <?php
 
               if(get_field('index_introduction')){

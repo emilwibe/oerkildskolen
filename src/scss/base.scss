@@ -4,12 +4,12 @@ $color-black: #333;
 $color-lightgrey: #ddd;
 $color-darkgrey: #404040;
 $serif-font: 'Roboto Slab', serif;
-$sans-font:  'Roboto', sans-serif;
+$sans-font: 'Raleway', sans-serif;
 $handwritten-font: 'Allura', cursive;
 
 html{
   background-color:$color-white;
-  font-family: $serif-font;
+  font-family: $sans-font;
   font-size:62.5%;
   font-weight:400;
 }
@@ -45,7 +45,7 @@ img{
   display:none;
 }
 h1, h2, h3, h4, h5, h6{
-  font-family:$sans-font;
+  font-family:$serif-font;
 }
 h1{
   font-size:calc(22px + 0.25vw);

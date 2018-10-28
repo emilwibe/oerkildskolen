@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6{
   font-family:$serif-font;
 }
 h1{
-  font-size:calc(22px + 0.25vw);
+  font-size:calc(22px + 0.25vw) !important;
 }
 h2{
   font-size:calc(20px + 0.25vw)

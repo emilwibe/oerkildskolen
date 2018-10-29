@@ -21,4 +21,5 @@
 
         </ul>
     </div><!--/.newsbox-->
+    <?php wp_reset_postdata(); ?>
 <?php endif; ?>

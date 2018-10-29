@@ -14,6 +14,7 @@
 .newsbox{
   background-color:#f3f3f3;
   padding:20px;
+  margin-bottom:20px;
 }
 .newsbox h2{
   margin-top:0;
@@ -29,4 +30,9 @@
   color:#000;
   font-size:calc(12px + 0.25vw);
   font-weight:bold;
+}
+.newsbox .read-more{
+  display:block;
+  text-align:right;
+  font-size:calc(10px + 0.25vw);
 }

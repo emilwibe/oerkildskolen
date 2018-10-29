@@ -20,6 +20,7 @@
     <?php endwhile; ?>
 
         </ul>
+        <a href="<?php echo get_permalink(get_option('page_for_posts')); ?>">Ældre nyheder</a>
     </div><!--/.newsbox-->
     <?php wp_reset_postdata(); ?>
 <?php endif; ?>

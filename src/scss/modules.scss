@@ -13,10 +13,17 @@
 }
 .newsbox{
   background-color:#f3f3f3;
+  padding:20px;
+}
+.newsbox ul{
+  padding:0;
+  margin:0;
 }
 .newsbox li{
   list-style-type:none;
 }
 .newsbox a{
   color:#000;
+  font-size:calc(12px + 0.25vw);
+  font-weight:bold;
 }

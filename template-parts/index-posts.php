@@ -12,6 +12,7 @@
 <?php if($news->have_posts()) : ?>
 
     <div class="newsbox">
+        <h2>Seneste nyt</h2>
         <ul>
     <?php while($news->have_posts()) : $news->the_post(); ?>
 

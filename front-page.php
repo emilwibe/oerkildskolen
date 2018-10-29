@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <main>
 
-  <div class="wrapper sm row lg-col-75-25 md-col-66-33 sm-col-100">
+  <div class="wrapper md row lg-col-75-25 md-col-66-33 sm-col-100">
     <div>
       <div>
 
@@ -23,7 +23,7 @@
 
     <div>
       <div>
-      
+                <?php get_template_part('template-parts/index', 'posts'); ?>
       </div>
     </div>
   </div><!--/.wrapper.sm-->

@@ -836,6 +836,15 @@ main {
 .align-center {
   align-items: center; }
 
+.newsbox {
+  background-color: #f3f3f3; }
+
+.newsbox li {
+  list-style-type: none; }
+
+.newsbox a {
+  color: #000; }
+
 .logo {
   height: 40px; }
 

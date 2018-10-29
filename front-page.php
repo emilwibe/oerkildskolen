@@ -1,15 +1,19 @@
 <?php get_header(); ?>
 <main>
+  <?php if(get_field('index_signature')) : ?>
+
+  <div class="wrapper md">
+  <h1><?php the_field('index_signature'); ?></h1>
+  </div><!--/.wrapper.md-->
+
+  <?php endif; ?>
 
   <div class="wrapper md row lg-col-75-25 md-col-66-33 sm-col-100">
     <div>
       <div>
 
       <div class="introduction">
-        <?php if(get_field('index_signature')) : ?>
-
-          <h1><?php the_field('index_signature'); ?></h1>
-       <?php endif; ?>
+        
               <?php
 
                 if(get_field('index_introduction')){

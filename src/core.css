@@ -196,7 +196,7 @@ main {
   border-top: 1px solid #ddd; }
 
 .module.files a {
-  font-family: "Roboto Slab", serif;
+  font-family: "Raleway", sans-serif;
   color: #404040;
   font-size: 20px;
   font-weight: 400;
@@ -1030,7 +1030,7 @@ main {
   text-decoration: none;
   font-size: calc(16px + 0.25vw);
   text-decoration: none;
-  font-family: "Roboto Slab", serif;
+  font-family: "Raleway", sans-serif;
   margin: 0; }
 
 .index-featured img {
@@ -1059,7 +1059,7 @@ main {
   overflow: hidden; }
 
 .grades.numbers h3 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Raleway", sans-serif;
   color: #404040;
   font-size: 20px;
   font-weight: 400;

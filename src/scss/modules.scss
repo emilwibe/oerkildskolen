@@ -12,9 +12,12 @@
   align-items:center;
 }
 .newsbox{
-  background-color:#f3f3f3;
+  background-color: $color-primary;
   padding:20px;
   margin-bottom:20px;
+}
+.newsbox *{
+  color:#fff;
 }
 .newsbox h2{
   margin-top:0;

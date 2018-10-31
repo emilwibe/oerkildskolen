@@ -20,14 +20,14 @@ html, body, div {
 
 ::selection {
   color: #fefefe;
-  background-color: #3399cc; }
+  background-color: #0d69b5; }
 
 p, li, a, blockquote, cite, q {
   font-size: calc(16px + 0.25vw);
   line-height: 1.5; }
 
 a {
-  color: #3399cc;
+  color: #0d69b5;
   text-decoration: none; }
 
 img {
@@ -223,7 +223,7 @@ main {
   right: 10px; }
 
 .module.files a:hover {
-  color: #3399cc; }
+  color: #0d69b5; }
 
 .module.list ul {
   padding: 0; }
@@ -835,9 +835,12 @@ main {
   align-items: center; }
 
 .newsbox {
-  background-color: #f3f3f3;
+  background-color: #0d69b5;
   padding: 20px;
   margin-bottom: 20px; }
+
+.newsbox * {
+  color: #fff; }
 
 .newsbox h2 {
   margin-top: 0; }
@@ -1068,7 +1071,7 @@ main {
   transition: color 0.4s; }
 
 .grades.numbers h3:hover, .grades.numbers h3::after {
-  color: #3399cc;
+  color: #0d69b5;
   cursor: pointer; }
 
 .grades.numbers h3::after {

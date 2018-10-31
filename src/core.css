@@ -854,7 +854,8 @@ main {
 
 .newsbox a {
   font-size: calc(12px + 0.25vw);
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: underline; }
 
 .newsbox .read-more {
   display: block;
@@ -1129,7 +1130,7 @@ main {
   margin: 0 auto; }
 
 .footer.list li {
-  font-family: "Roboto Slab", serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   padding: 0 10px;
   list-style-type: none; }

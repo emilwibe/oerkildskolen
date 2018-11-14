@@ -234,6 +234,22 @@ main {
 .module.list span {
   max-width: 48%; }
 
+@media screen and (max-width: 720px) {
+  .module.list span {
+    font-size: calc(14px + 0.25vw); } }
+
+@media screen and (max-width: 620px) {
+  .module.list span {
+    font-size: calc(12px + 0.25vw); } }
+
+@media screen and (max-width: 540px) {
+  .module.list span {
+    font-size: calc(10px + 0.25vw); } }
+
+@media screen and (max-width: 450px) {
+  .module.list span {
+    font-size: calc(8px + 0.25vw); } }
+
 .member > div > div {
   display: flex;
   flex-direction: column;

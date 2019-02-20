@@ -8,7 +8,7 @@
 
   <?php endif; ?>
 
-  <div class="wrapper md row lg-col-75-25 md-col-66-33 sm-col-100">
+  <div class="wrapper md row lg-col-66-33 md-col-66-33 sm-col-100">
     <div>
       <div>
 

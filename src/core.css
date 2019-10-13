@@ -8,6 +8,12 @@
   20% {
     left: 20px; }
   30% {
+    left: -10px; }
+  40% {
+    left: 5px; }
+  50% {
+    left: -2px; }
+  60% {
     left: 0; } }
 
 html {
@@ -865,7 +871,7 @@ main {
   border-radius: 5px; }
 
 .link.aula a {
-  animation: logo-attention 2s;
+  animation: logo-attention 2s infinite;
   background-image: url("../assets/aula-logo-white.png");
   background-position: center;
   background-repeat: no-repeat;

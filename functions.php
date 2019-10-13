@@ -1,9 +1,9 @@
 <?php
 
 add_action("wp_enqueue_scripts", function(){
-  wp_enqueue_style("core-style", get_template_directory_uri() . "/dist/core.min.css", "", "");
-  wp_enqueue_script("core-scripts-head", get_template_directory_uri() . "/dist/core-head.min.js", "", "", false);
-  wp_enqueue_script("core-scripts-footer", get_template_directory_uri() . "/dist/core-footer.min.js?" . rand(1, 194432898432), "", '', true);
+  wp_enqueue_style("core-style", get_template_directory_uri() . "/dist/core.min.css", "1.1", "");
+  wp_enqueue_script("core-scripts-head", get_template_directory_uri() . "/dist/core-head.min.js", "1.1", "", false);
+  wp_enqueue_script("core-scripts-footer", get_template_directory_uri() . "/dist/core-footer.min.js?" . "1.1", "", '', true);
 });
 
 register_nav_menus(array(

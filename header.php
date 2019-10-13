@@ -38,7 +38,7 @@
 
   <div class="wrapper lg">
     <ul class="intra-links">
-      <li><a href="https://www.aula.dk/portal/#/login" target="_blank">Aula</a></li>
+      <li class="link aula"><a href="https://www.aula.dk/portal/#/login" target="_blank">Aula</a></li>
     </ul>
     <header class="header primary">
       <a href="#" id="nav-trigger" class="nav-trigger">Menu</a>

@@ -3,17 +3,15 @@
 @keyframes logo-attention {
   0% {
     left: 0; }
-  10% {
+  1% {
     left: -20px; }
-  20% {
+  2% {
     left: 20px; }
-  30% {
+  3% {
     left: -10px; }
-  40% {
+  4% {
     left: 5px; }
-  50% {
-    left: -2px; }
-  60% {
+  5% {
     left: 0; } }
 
 html {
@@ -871,7 +869,7 @@ main {
   border-radius: 5px; }
 
 .link.aula a {
-  animation: logo-attention 2s infinite;
+  animation: logo-attention 10s infinite;
   background-image: url("../assets/aula-logo-white.png");
   background-position: center;
   background-repeat: no-repeat;

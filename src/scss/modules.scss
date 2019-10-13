@@ -11,6 +11,11 @@
 .align-center{
   align-items:center;
 }
+@media screen and (max-width: 1000px){
+  .intra-links{
+    margin-bottom:-50px;
+  }
+}
 .link.aula{
   background-color: #44b6c0;
   border-radius:5px;

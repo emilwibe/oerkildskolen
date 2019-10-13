@@ -850,6 +850,13 @@ main {
 .align-center {
   align-items: center; }
 
+.link.aula {
+  background-color: #44b6c0;
+  background-image: url("../assets/aula-logo-white.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto; }
+
 .newsbox {
   background-color: #0d69b5;
   padding: 20px;

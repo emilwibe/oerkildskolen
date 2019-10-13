@@ -9,11 +9,11 @@ const importCSS = require("gulp-import-css");
 let paths = {
   scss: [
     "./src/scss/fonts.scss",
+    "./src/scss/animations.scss",
     "./src/scss/base.scss",
     "./src/scss/layout.scss",
     "./src/grid.scss",
     "./src/scss/modules.scss",
-    "./src/scss/animations.scss",
     "./src/scss/theme.scss"
   ],
   cssGRID: [

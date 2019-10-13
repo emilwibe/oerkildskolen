@@ -1,5 +1,15 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,500,500i,700,700i");
+@keyframes logo-attention {
+  0% {
+    left: 0; }
+  10% {
+    left: -20px; }
+  20% {
+    left: 20px; }
+  30% {
+    left: 0; } }
+
 html {
   background-color: #fefefe;
   font-family: "Raleway", sans-serif;
@@ -890,16 +900,6 @@ main {
   display: block;
   text-align: right;
   font-size: calc(10px + 0.25vw); }
-
-@keyframes logo-attention {
-  0% {
-    left: 0; }
-  10% {
-    left: -20px; }
-  20% {
-    left: 20px; }
-  30% {
-    left: 0; } }
 
 .logo {
   height: 40px; }

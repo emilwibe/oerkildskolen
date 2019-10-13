@@ -855,6 +855,7 @@ main {
   border-radius: 5px; }
 
 .link.aula a {
+  animation: logo-attention 2s;
   background-image: url("../assets/aula-logo-white.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -889,6 +890,16 @@ main {
   display: block;
   text-align: right;
   font-size: calc(10px + 0.25vw); }
+
+@keyframes logo-attention {
+  0% {
+    left: 0; }
+  10% {
+    left: -20px; }
+  20% {
+    left: 20px; }
+  30% {
+    left: 0; } }
 
 .logo {
   height: 40px; }

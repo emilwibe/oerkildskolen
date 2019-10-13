@@ -1,1 +1,14 @@
-
+@keyframes logo-attention{
+  0%{
+    left:0;
+  }
+  10%{
+    left:-20px;
+  }
+  20%{
+    left:20px;
+  }
+  30%{
+    left:0;
+  }
+}

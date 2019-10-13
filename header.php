@@ -38,9 +38,7 @@
 
   <div class="wrapper lg">
     <ul class="intra-links">
-      <li><a href="http://www.orkildskolen.skoleintra.dk/li">Personaleintra</a></li>
-      <li><a href="http://www.orkildskolen.skoleintra.dk/fi">Forældreintra</a></li>
-      <li><a href="http://www.orkildskolen.skoleintra.dk/pi">Elevintra</a></li>
+      <li><a href="https://www.aula.dk/portal/#/login" target="_blank">Aula</a></li>
     </ul>
     <header class="header primary">
       <a href="#" id="nav-trigger" class="nav-trigger">Menu</a>

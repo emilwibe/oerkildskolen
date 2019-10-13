@@ -11,11 +11,17 @@
 .align-center{
   align-items:center;
 }
+.link.aula{
+  background-color: #44b6c0;
+  border-radius:5px;
+}
 .link.aula a{
   background-image: url("../assets/aula-logo-white.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size:80% auto;
+  color:transparent;
+  padding:10px 20px
 }
 .newsbox{
   background-color: $color-primary;

@@ -4,7 +4,7 @@
   0% {
     left: 0; }
   1% {
-    left: -20px; }
+    left: -40px; }
   2% {
     left: 20px; }
   3% {
@@ -12,6 +12,8 @@
   4% {
     left: 5px; }
   5% {
+    left: -2px; }
+  6% {
     left: 0; } }
 
 html {

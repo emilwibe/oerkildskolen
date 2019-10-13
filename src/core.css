@@ -882,7 +882,8 @@ main {
   background-size: 80% auto;
   color: transparent;
   padding: 10px 20px;
-  position: relative; }
+  position: relative;
+  z-index: 2000; }
 
 .newsbox {
   background-color: #0d69b5;

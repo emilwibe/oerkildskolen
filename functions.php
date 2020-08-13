@@ -24,8 +24,8 @@ function myplugin_remove_type_attr($tag, $handle) {
 if( function_exists('acf_add_options_page') ) {
 	
 	acf_add_options_page(array(
-		'page_title' 	=> 'Indstillinger',
-		'menu_title'	=> 'Indstillinger',
+		'page_title' 	=> 'Flere indstillinger',
+		'menu_title'	=> 'Flere indstillinger',
 		'menu_slug' 	=> 'theme-general-settings',
 		'capability'	=> 'edit_posts',
 		'redirect'		=> false

@@ -19,4 +19,22 @@ add_filter('script_loader_tag', 'myplugin_remove_type_attr', 10, 2);
 function myplugin_remove_type_attr($tag, $handle) {
     return preg_replace( "/type=['\"]text\/(javascript|css)['\"]/", '', $tag );
 }
-?>
+
+// ACF ADDING OPTIONS PAGE
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page(array(
+		'page_title' 	=> 'Indstillinger',
+		'menu_title'	=> 'Indstillinger',
+		'menu_slug' 	=> 'theme-general-settings',
+		'capability'	=> 'edit_posts',
+		'redirect'		=> false
+	));
+	
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Sidefod',
+		'menu_title'	=> 'Sidefod',
+		'parent_slug'	=> 'theme-general-settings',
+	));
+		
+}

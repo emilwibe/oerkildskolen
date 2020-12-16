@@ -67,6 +67,13 @@ h3 {
 main {
   margin-bottom: 100px; }
 
+video  {
+  height: auto;
+  width: 100%; }
+
+video:focus {
+  outline: none; }
+
 .no-js img {
   height: auto !important; }
 

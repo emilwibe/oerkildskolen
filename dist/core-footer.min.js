@@ -99,4 +99,18 @@ if(grades.length){
     document.body.classList.toggle("no-scroll");
   }, false);
 
+  /**
+   * Reset video when ended
+   * 
+   * @var video all DOM video-tags
+   */
+
+   let siteVideo = document.querySelectorAll("video");
+
+   for ( let i = 0; i < siteVideo.length; i += 1 ) {
+     siteVideo[i].addEventListener( "ended", function(e){
+       e.target.currentTime = 0;
+     }, false );
+   }
+
 }());

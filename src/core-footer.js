@@ -100,17 +100,37 @@ if(grades.length){
   }, false);
 
   /**
-   * Reset video when ended
-   * 
-   * @var video all DOM video-tags
+   * Play button in video flex module
    */
+  let 
+    button_video_play = document.querySelectorAll(".play-video"),
+    button_video_play_length = button_video_play.length,
+    button_video_unmute = document.getElementById("unmute-video"),
+    siteVideos = document.querySelectorAll("video"),
+    siteVideosLength = siteVideos.length
+  ;
+  if ( siteVideosLength ) {
+    for (let i = 0; i < siteVideosLength; i += 1) {
+      siteVideos[i].addEventListener("ended", function(){
+        siteVideos[i].load();
+      });
+    }
+  }
 
-   let siteVideo = document.querySelectorAll("video");
+  if ( button_video_play_length ) {
+    for ( let i = 0; i < button_video_play_length; i += 1 ) {
+      button_video_play[i].addEventListener( "click", function( e ) {
+        e.target.previousElementSibling.play();
+        e.target.style.display = "none";
+      }, false );
+    }
+  }
 
-   for ( let i = 0; i < siteVideo.length; i += 1 ) {
-     siteVideo[i].addEventListener( "ended", function(e){
-       e.target.currentTime = 0;
-     }, false );
-   }
+  if ( button_video_unmute ) {
+    button_video_unmute.addEventListener( "click", function( e ){
+      e.target.previousElementSibling.muted = false;
+      e.target.style.display = "none";
+    } );
+  }
 
 }());

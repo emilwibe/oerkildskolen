@@ -1,9 +1,14 @@
 <?php
+header("Expires: Tue, 01 Jan 2000 00:00:00 GMT");
+header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
 
 add_action("wp_enqueue_scripts", function(){
-  wp_enqueue_style("core-style", get_template_directory_uri() . "/dist/core.min.css", "1.1", "");
-  wp_enqueue_script("core-scripts-head", get_template_directory_uri() . "/dist/core-head.min.js", "1.1", "", false);
-  wp_enqueue_script("core-scripts-footer", get_template_directory_uri() . "/dist/core-footer.min.js?" . "1.1", "", '', true);
+  wp_enqueue_style("core-style", get_template_directory_uri() . "/dist/core.min.css", time(), "");
+  wp_enqueue_script("core-scripts-head", get_template_directory_uri() . "/dist/core-head.min.js", time(), "", false);
+  wp_enqueue_script("core-scripts-footer", get_template_directory_uri() . "/dist/core-footer.min.js?" . time(), "", '', true);
 });
 
 register_nav_menus(array(

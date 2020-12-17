@@ -59,3 +59,29 @@
   text-align:right;
   font-size:calc(10px + 0.25vw);
 }
+
+/* VIDEO MODULE */
+.video-flex-wrapper {
+  position: relative;
+}
+.video-flex-wrapper .oe-video-button {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #000;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  padding:10px;
+  position: absolute;
+  right: 0;
+  top: 20%;
+  z-index: 100;
+}
+.video-flex-wrapper .oe-video-button:focus {
+  outline: none;
+}
+@media screen and (max-width: 768px) {
+  .flex-module .oe-video-button {
+    display: none;
+  }
+}
